@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="../assets/images/icono.png">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <!----- Barra de navegacion ----->
+    <nav>
+        <input type="checkbox" id="check">
+      <label for="check">
+        <i class='bx bx-menu' id="btn"></i>
+        <i class='bx bx-x' id="cancel"></i>
+      </label>
+        <img src="../assets/images/logo.png" alt="logo">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./biography.html">Biografia</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="formulario">
+        <h2>Contacto</h2>
+        <form>
+          <fieldset>
+            <legend>Enviame tu mensaje</legend>
+            <input type="text" id="name" name="name" placeholder="Nombre y apellidos" autofocus required><br>
+            <input type="email" id="email" name="email" placeholder="email" required>
+            <input type="tel" id="tel" name="tel" placeholder="Teléfono" required><br>
+            <textarea name="texto" id="texto" placeholder="Mensaje"></textarea><br>
+            <input type="submit" id="enviar">
+          </fieldset>
+        </form> 
+    </div>
+    <footer>
+        <div class="social-icons">
+          <a href="https://github.com/JuanjoSalas" target="_blank"><i class='bx bxl-github'></i></a>
+          <a href="mailto:juanjo.salas.dev@gmail.com" target="_blank"><i class='bx bxs-envelope'></i></a>
+          <a href="https://es.linkedin.com/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+        </div>
+        <p>Copyright &copy;2024; Designed by <span class="designer">Juanjo Salas</span></p>
+      </footer>
+</body>
+</html>
